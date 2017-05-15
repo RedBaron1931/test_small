@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@font-face {
+	font-family: 'OpenSans-Regular', sans-serif;
+	src: url('../fonts/OpenSans-Regular/OpenSans-Regular.eot');
+	src: url('../fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Regular/OpenSans-Regular.woff') format('woff'),
+		 url('../fonts/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'OpenSans-Semibold', sans-serif;
+	src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.eot');
+	src: url('../fonts/OpenSans-Semibold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Semibold/OpenSans-Semibold.woff') format('woff'),
+		 url('../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}

@@ -31,13 +31,13 @@ gulp.task('clean', function(){
 gulp.task('sass', function(){
 		return gulp.src('app/sass/**/*.sass')
 				.pipe(sass({outputStyle: 'expanded'}))
-				.pipe(autoprefixer(['last 15 versions', 'ie 8', 'ie 7'], {cascade: true}))
 				.pipe(gulp.dest('app/css'))
 				.pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('scripts', function(){
-	return gulp.src('')
+	return gulp.src(['app/libs/owl-carousel/owl-carousel/owl.carousel',
+		'app/libs/magnific-popup/dist/jquery.magnific-popup'])
 		.pipe(concat('libs.min.js'))
 		.pipe(uglifyjs())
 		.pipe(gulp.dest('app/js'))
