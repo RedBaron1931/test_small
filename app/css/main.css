@@ -1,6 +1,6 @@
 body {
   height: 100px;
-  font-family: 'OpenSans-Semibold', sans-serif;
+  font-family: 'OpenSans-Regular', sans-serif;
 }
 
 .container {
@@ -62,13 +62,14 @@ body {
 }
 
 .text_clas1 h4 {
+  font-family: 'OpenSans-Semibold', sans-serif;
   color: #ffffff;
   font-size: 63px;
   margin-bottom: 40px;
 }
 
 .text_clas1 p {
-  padding-left: 533px;
+  padding-left: 700px;
   color: #ffffff;
   font-size: 23px;
   height: 92px;
@@ -92,13 +93,34 @@ body {
 .section {
   text-align: center;
   height: 800px;
-  padding-top: 100px;
+  padding-top: 107px;
   padding-bottom: 100px;
   display: inline-block;
 }
 
+.item {
+  text-align: center;
+}
+
 .box_item {
   display: inline-block;
+  text-align: center;
+  padding-left: 135px;
+}
+
+.box_item h4 {
+  font-size: 22px;
+  margin-bottom: -10px;
+}
+
+.box_item h3 {
+  font-size: 14px;
+}
+
+.box_item p {
+  font-size: 14px;
+  width: 304px;
+  padding-top: 35px;
 }
 
 .text_section h4 {
