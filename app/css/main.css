@@ -47,7 +47,7 @@ body {
   padding-top: 43px;
 }
 
-.centre_container {
+.carousel_box {
   margin-top: 45px;
   background-image: url("../img/bg.png");
   min-height: 560px;
@@ -57,31 +57,49 @@ body {
   text-align: center;
 }
 
-.text_clas1 {
-  padding-top: 120px;
-}
-
-.text_clas1 h4 {
+.carousel_box .item_1 .name h4 {
   font-family: 'OpenSans-Semibold', sans-serif;
   color: #ffffff;
   font-size: 63px;
   margin-bottom: 40px;
 }
 
-.text_clas1 p {
+.carousel_box .owl_carousel {
+  height: 800px;
+  position: relative;
+}
+
+.carousel_box .owl_carousel .class_1 {
   padding-left: 700px;
   color: #ffffff;
   font-size: 23px;
   height: 92px;
   width: 367px;
   text-align: center;
+  margin-bottom: 58px;
 }
 
-.centre_botton {
+.carousel_box .owl_carousel .owl-prev,
+.carousel_box .owl_carousel .owl-next {
+  position: absolute;
+  top: 50%;
+}
+
+.carousel_box .owl_carousel .owl-next {
+  right: 0;
+  background-color: #FFF;
+}
+
+.carousel_box .owl_carousel .owl-prev {
+  left: 0;
+}
+
+.carousel_box .centre_botton {
   text-align: center;
+  color: #fff;
 }
 
-.centre_botton a {
+.carousel_box a {
   color: #fff;
   font-size: 26px;
   border: 2px solid #fff;
@@ -204,6 +222,7 @@ body {
 }
 
 .contact_form_2 input {
+  text-align: right;
   color: #c1c1c1;
   width: 571px;
   height: 178px;

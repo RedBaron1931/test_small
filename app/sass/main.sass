@@ -31,33 +31,49 @@ body
 	color: #49cbcd	  
 .menu a
 	text-decoration: none
-	color: #484c55	
-	padding-top: 43px
-.centre_container
+	color: #484c55	  
+	padding-top: 43px  
+.carousel_box
 	margin-top: 45px
 	background-image: url("../img/bg.png")
 	min-height: 560px
 	background-repeat: no-repeat
-	background-size: cover
+	background-size: cover    
 	background-position: top center
 	text-align: center
-.text_clas1
-	padding-top: 120px
+	.item_1 
+		.name
+			h4
+				font-family: 'OpenSans-Semibold', sans-serif;
+				color: #ffffff
+				font-size: 63px
+				margin-bottom: 40px
+	.owl_carousel
+		height: 800px 
+		position: relative
+		.class_1
+			padding-left: 700px
+			color: #ffffff
+			font-size: 23px
+			height: 92px
+			width: 367px  
+			text-align: center    
+			margin-bottom: 58px
+		.owl-prev, 
+		.owl-next
+				// margin-right: 27px
+				// margin-left: 27px
+				position: absolute
+				top: 50%
+		.owl-next
+				right: 0
+				background-color: #FFF
 
-	h4
-		font-family: 'OpenSans-Semibold', sans-serif;
-		color: #ffffff
-		font-size: 63px
-		margin-bottom: 40px
-	p
-		padding-left: 700px
-		color: #ffffff
-		font-size: 23px
-		height: 92px
-		width: 367px
+		.owl-prev 
+			left: 0
+	.centre_botton	
 		text-align: center
-.centre_botton	
-	text-align: center
+		color: #fff
 	a
 		color: #fff
 		font-size: 26px
@@ -149,6 +165,7 @@ body
 		border-radius: 3px
 .contact_form_2
 	input
+		text-align: right
 		color: #c1c1c1
 		width: 571px
 		height: 178px
