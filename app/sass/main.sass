@@ -53,13 +53,13 @@ body
 		height: 570px 
 		position: relative
 		.class_1
-			padding-left: 700px
 			color: #ffffff
 			font-size: 23px
-			height: 92px
-			width: 367px  
+			height: 92px 
 			text-align: center    
 			margin-bottom: 40px
+			p 
+				margin-top: 0px
 		.centre_botton
 			margin-bottom: 50px
 			a
@@ -81,53 +81,57 @@ body
 		.owl-next   
 			right: 0			
 		.owl-prev 
-			left: 0
+			left: 0    
 
 .section
 	text-align: center
+.section_1
+	text-align: center
 	height: 800px
-	padding-top: 107px
-	padding-bottom: 100px
 	display: inline-block
-.item
-	text-align: center
-.box_item
-	display: inline-block
-	text-align: center
-	padding-left: 110px	
-	h4
-		font-size: 22px
-		margin-bottom: -10px
-	h3
-		font-size: 14px
-	p
-		font-size: 14px
-		width: 304px
-		padding-top: 35px
+	.text_section
+		padding-top: 107px
+		padding-bottom: 100px
+		h4
+			font-size: 42px
+			color: #4e525d
+			text-align: center
+			
+	.item
+		text-align: center
+		.box_item
+			display: inline-block
+			text-align: center
+			padding-left: 50px	
+			h4
+				font-size: 22px
+				margin-bottom: -10px
+			h3
+				font-size: 14px
+			p
+				font-size: 14px
+				width: 304px
+				padding-top: 35px
 
-.text_section
-	h4
-		font-size: 42px
-		color: #4e525d
+
 
 .footer
 	background-repeat: no-repeat
 	background-size: cover
 	background-position: top center
-	text-align: center
 	background-image: url("../img/bg_foot.png")
-	height: 688px
+	height: 700px
+	padding-top: 1px
 .center_footer
 	text-align: center
 	h4
 		color: #fff
 		font-size: 42px
-		padding-top: 100px
+		padding-top: 60px
+		margin-bottom: 100px
 .left_footer
-	padding-left: 135px
-	height: 249px
-	width: 462px
-	text-align: left
+	float: left
+	padding-left: 9%
 	h4  
 		margin-bottom: 15px  
 		color: #fff
@@ -135,6 +139,10 @@ body
 	h3
 		color: #909090
 		font-size: 14px
+		p 
+			padding-left: 0px
+			margin-top: 1px
+			display: flex
 .social
 	img
 		padding-top: 42px
@@ -145,15 +153,13 @@ body
 		font-size: 14px
 
 .rihgt_footer
-	text-align: right
+	float: right
+	padding-right: 9%
 .contact_form
 	display: inline-block
 	text-align: left
-	padding-right: 135px
 	
 .box_form 
-	margin-top: -238px
-	padding-right: 135px
 	input 
 		color: #c1c1c1
 		font-size: 14px
@@ -166,13 +172,11 @@ body
 		border-radius: 3px
 .contact_form_2
 	input
-		text-align: right
 		color: #c1c1c1
 		width: 571px
-		height: 178px
+		padding-bottom: 176px
 .btn 
 	text-align: right
-	padding-right: 135px
 	a
 		color: #fff
 		font-size: 22px
@@ -180,19 +184,21 @@ body
 		padding: 13px 55px
 		border-radius: 3px
 		text-decoration: none
+.content 
+	text-align: center
+	display: inline-block
+	width: 100%
+	background-color: #f1f1f1
 .centre_plans
 	height: 740px
-	background-color: #f1f1f1
+	display: inline-block
 	.menu_plans
 		float: left
 		display: inline-block
 		text-align: center
-		padding-left: 135px
+		padding-top: 120px
 		ul 
-			margin-right: 10px
-			 margin-left: 0 
-   			 padding-left: 0
-			
+			margin-left: 0 
 			h4
 				background-color: #485460
 				color: #fff
@@ -200,24 +206,27 @@ body
 				font-size: 26px
 				font-family: 'OpenSans-Semibold', sans-serif;
 				padding-top: 26px
-				padding-bottom: 30px	
+				padding-bottom: 30px
+				margin-bottom: 0px	
 			li 
 				list-style-type: none
 				background-color: #fff
-				margin-top: 1px
-				padding-top: 10px	
+				margin-top: 2px
+				padding-top: 10px
+				padding-bottom: 10px	
 				a
 					background-color: #f8f9fb
 					margin-top: 10px
 					font-size: 14px
 					color: #8c9299	
-					text-decoration: none       
-	.btn_plans
-		background-color: #f8f9fb
-		display: inline-block
-		text-decoration: none
-		color: #fff   
+					text-decoration: none
+			
+	.menu_plans :last-child   
 		a
-			background-color: #485460
-			padding-top: 10px
-			padding-bottom: 10px
+			color: #fff
+			font-size: 17px
+			text-decoration: none
+			background-color: #788492
+			padding: 11px 66px
+			border-radius: 5px  
+  	

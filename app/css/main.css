@@ -71,13 +71,15 @@ body {
 }
 
 .carousel_box .owl_carousel .class_1 {
-  padding-left: 700px;
   color: #ffffff;
   font-size: 23px;
   height: 92px;
-  width: 367px;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.carousel_box .owl_carousel .class_1 p {
+  margin-top: 0px;
 }
 
 .carousel_box .owl_carousel .centre_botton {
@@ -114,49 +116,57 @@ body {
 
 .section {
   text-align: center;
+}
+
+.section_1 {
+  text-align: center;
   height: 800px;
+  display: inline-block;
+}
+
+.section_1 .text_section {
   padding-top: 107px;
   padding-bottom: 100px;
-  display: inline-block;
 }
 
-.item {
+.section_1 .text_section h4 {
+  font-size: 42px;
+  color: #4e525d;
   text-align: center;
 }
 
-.box_item {
-  display: inline-block;
+.section_1 .item {
   text-align: center;
-  padding-left: 110px;
 }
 
-.box_item h4 {
+.section_1 .item .box_item {
+  display: inline-block;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.section_1 .item .box_item h4 {
   font-size: 22px;
   margin-bottom: -10px;
 }
 
-.box_item h3 {
+.section_1 .item .box_item h3 {
   font-size: 14px;
 }
 
-.box_item p {
+.section_1 .item .box_item p {
   font-size: 14px;
   width: 304px;
   padding-top: 35px;
-}
-
-.text_section h4 {
-  font-size: 42px;
-  color: #4e525d;
 }
 
 .footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  text-align: center;
   background-image: url("../img/bg_foot.png");
-  height: 688px;
+  height: 700px;
+  padding-top: 1px;
 }
 
 .center_footer {
@@ -166,14 +176,13 @@ body {
 .center_footer h4 {
   color: #fff;
   font-size: 42px;
-  padding-top: 100px;
+  padding-top: 60px;
+  margin-bottom: 100px;
 }
 
 .left_footer {
-  padding-left: 135px;
-  height: 249px;
-  width: 462px;
-  text-align: left;
+  float: left;
+  padding-left: 9%;
 }
 
 .left_footer h4 {
@@ -185,6 +194,12 @@ body {
 .left_footer h3 {
   color: #909090;
   font-size: 14px;
+}
+
+.left_footer h3 p {
+  padding-left: 0px;
+  margin-top: 1px;
+  display: flex;
 }
 
 .social img {
@@ -199,18 +214,13 @@ body {
 }
 
 .rihgt_footer {
-  text-align: right;
+  float: right;
+  padding-right: 9%;
 }
 
 .contact_form {
   display: inline-block;
   text-align: left;
-  padding-right: 135px;
-}
-
-.box_form {
-  margin-top: -238px;
-  padding-right: 135px;
 }
 
 .box_form input {
@@ -226,15 +236,13 @@ body {
 }
 
 .contact_form_2 input {
-  text-align: right;
   color: #c1c1c1;
   width: 571px;
-  height: 178px;
+  padding-bottom: 176px;
 }
 
 .btn {
   text-align: right;
-  padding-right: 135px;
 }
 
 .btn a {
@@ -246,22 +254,27 @@ body {
   text-decoration: none;
 }
 
+.content {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
 .centre_plans {
   height: 740px;
-  background-color: #f1f1f1;
+  display: inline-block;
 }
 
 .centre_plans .menu_plans {
   float: left;
   display: inline-block;
   text-align: center;
-  padding-left: 135px;
+  padding-top: 120px;
 }
 
 .centre_plans .menu_plans ul {
-  margin-right: 10px;
-  margin-right-margin-left: 0;
-  margin-right-margin-left-padding-left: 0;
+  margin-left: 0;
 }
 
 .centre_plans .menu_plans ul h4 {
@@ -272,13 +285,15 @@ body {
   font-family: 'OpenSans-Semibold', sans-serif;
   padding-top: 26px;
   padding-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .centre_plans .menu_plans ul li {
   list-style-type: none;
   background-color: #fff;
-  margin-top: 1px;
+  margin-top: 2px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .centre_plans .menu_plans ul li a {
@@ -289,15 +304,11 @@ body {
   text-decoration: none;
 }
 
-.centre_plans .btn_plans {
-  background-color: #f8f9fb;
-  display: inline-block;
-  text-decoration: none;
+.centre_plans .menu_plans :last-child a {
   color: #fff;
-}
-
-.centre_plans .btn_plans a {
-  background-color: #485460;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 17px;
+  text-decoration: none;
+  background-color: #788492;
+  padding: 11px 66px;
+  border-radius: 5px;
 }
